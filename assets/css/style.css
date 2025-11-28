@@ -26,6 +26,8 @@ h3 {
   color: var(--highlight-color);
 }
 
+/*Grid CSS for testing */
+
 /* .sub-heading-color,
 .row {
   border: 2px solid black;
@@ -35,3 +37,13 @@ h3 {
   border: 2px solid white;
   background-color: lightgray;
 } */
+
+/*Navbar Styles*/
+/* if the background color doesn't apply inspect tools will help to show the bootstrap class with attribute of !IMPORTANT is overriding CSS. In this case you need to delete the class */
+#navbar {
+  background-color: var(--primary-color);
+}
+
+#navbar .logo {
+  width: 30px;
+}
