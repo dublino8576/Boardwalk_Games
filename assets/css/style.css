@@ -84,7 +84,8 @@ h2 {
 
 /* New Games Section Styles */
 
-#new-games .card {
+#new-games .card,
+#fav-games .card {
   border-width: 0px;
 }
 
@@ -124,5 +125,24 @@ h2 {
 @media screen and (min-width: 992px) {
   #new-games .card-body > p:nth-of-type(1) {
     min-height: 74px;
+  }
+}
+
+/* Favorite Games section */
+@media screen and (min-width: 992px) {
+  #fav-games .card-body > p:nth-of-type(1) {
+    min-height: 98px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #fav-games .card-body > p:nth-of-type(1) {
+    min-height: 169px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #fav-games .card-body > p:nth-of-type(1) {
+    min-height: 147px;
   }
 }
