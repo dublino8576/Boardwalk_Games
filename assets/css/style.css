@@ -20,10 +20,17 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .sub-heading-color {
   color: var(--highlight-color);
+}
+
+.section {
+  /* Global positioning reusable for all of our sections to increase consistency*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /*Grid CSS for testing */
@@ -46,4 +53,10 @@ h3 {
 
 #navbar .logo {
   width: 30px;
+}
+
+/* header Styles */
+
+#header .lead {
+  font-family: var(--secondary-font);
 }
