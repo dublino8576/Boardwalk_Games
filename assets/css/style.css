@@ -120,6 +120,12 @@ h2 {
   color: var(--secondary-color);
 }
 
+#contact .table-dark * {
+  /*Override  Bootstrap table-dark class but still leaving text white from the class.
+  we use global selector to allow us target all the cells which are children of .table-dark.  */
+  background-color: transparent;
+}
+
 /* Media Queries */
 /* Services section */
 @media screen and (min-width: 768px) {
