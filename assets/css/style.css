@@ -222,3 +222,11 @@ h2 {
     font-size: 0.8rem;
   }
 }
+
+/* Reserve Game Form Section */
+
+@media screen and (min-width: 768px) {
+  #game-form .form-control {
+    width: 66.67%;
+  }
+}
