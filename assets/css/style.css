@@ -144,6 +144,8 @@ h2 {
 #contact .social-links i {
   color: var(--highlight-color);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -220,13 +222,5 @@ h2 {
 @media screen and (max-width: 576px) {
   #join-events table * {
     font-size: 0.8rem;
-  }
-}
-
-/* Reserve Game Form Section */
-
-@media screen and (min-width: 768px) {
-  #game-form .form-control {
-    width: 7;
   }
 }
